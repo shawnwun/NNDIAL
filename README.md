@@ -3,7 +3,7 @@
 NNDial is an open source toolkit for building **end-to-end trainable task-oriented dialogue models**. It is released by **Tsung-Hsien (Shawn) Wen** from **Cambridge Dialogue Systems Group** under **Apache License 2.0**.
 
 # Requirement
-Here are a list of packages in order to run the program with the suggested versions,
+In order to run the program, here are a list of packages with the suggested versions,
 ```
 - Theano  0.8.2
 - Numpy   1.12.0
