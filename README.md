@@ -185,7 +185,7 @@ The selection criterion was success+0.5\*BLEU on the validation set.
 The hyperparameters we were searching are,
 ```
 - Initial learning rate. For NDM we searched over [0.008,0.010,0.012] while for LIDM we searched over [0.002,0.004,0.006].
-  The range of LIDM is smaller than NDM simply because NVI requires a smaller learning rate in the beginning for efficient inference.
+  The range of LIDM is lower than NDM simply because NVI requires a smaller learning rate in the beginning for efficient inference.
 - L2 regularisation. We searched over [0.0, 1e-4, 1e-5, 1e-6].
 - Random seed. We searched over [1, 2, 3, 4, 5].
 ```
