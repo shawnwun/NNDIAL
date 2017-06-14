@@ -3,7 +3,7 @@
 NNDial is an open source toolkit for building **end-to-end trainable task-oriented dialogue models**. It is released by **Tsung-Hsien (Shawn) Wen** from **Cambridge Dialogue Systems Group** under **Apache License 2.0**.
 
 # Requirement
-Here are a list of packages in order to run the program with the suggested versions,
+In order to run the program, here are a list of packages with the suggested versions,
 ```
 - Theano  0.8.2
 - Numpy   1.12.0
@@ -185,7 +185,7 @@ The selection criterion was success+0.5\*BLEU on the validation set.
 The hyperparameters we were searching are,
 ```
 - Initial learning rate. For NDM we searched over [0.008,0.010,0.012] while for LIDM we searched over [0.002,0.004,0.006].
-  The range of LIDM is smaller than NDM simply because NVI requires a smaller learning rate in the beginning for efficient inference.
+  The range of LIDM is lower than NDM simply because NVI requires a smaller learning rate in the beginning for efficient inference.
 - L2 regularisation. We searched over [0.0, 1e-4, 1e-5, 1e-6].
 - Random seed. We searched over [1, 2, 3, 4, 5].
 ```
@@ -201,7 +201,7 @@ To produce the exact numbers below, make sure you have the correct version of th
 Also, make sure you link your BLAS to OpenBLAS. We did observe different numbers when using different BLAS linkage.
 Example scripts for generating the config files for the experiments can be found at scp/batch_script/.
 
-<img src=https://raw.githubusercontent.com/shawnwun/nndial/master/benchmark.png" alt="benchmark" width="600" height="600"/>
+<img src="https://raw.githubusercontent.com/shawnwun/nndial/master/benchmark.png" alt="benchmark"/>
 
 5 example models were saved at model/demo/ for reference. You can directly run testing or interaction on these models.
 
