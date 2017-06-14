@@ -201,7 +201,7 @@ To produce the exact numbers below, make sure you have the correct version of th
 Also, make sure you link your BLAS to OpenBLAS. We did observe different numbers when using different BLAS linkage.
 Example scripts for generating the config files for the experiments can be found at scp/batch_script/.
 
-<img src="https://raw.githubusercontent.com/shawnwun/nndial/master/benchmark.png" alt="benchmark" width="600" height="600"/>
+<img src="https://raw.githubusercontent.com/shawnwun/nndial/master/benchmark.png" alt="benchmark" width="1000" height="600"/>
 
 5 example models were saved at model/demo/ for reference. You can directly run testing or interaction on these models.
 
